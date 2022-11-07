@@ -62,4 +62,20 @@ public class Employee {
     public int getGewicht() {
         return gewicht;
     }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setAlter(int alter) {
+        this.alter = alter;
+    }
+
+    public void setGehalt(int gehalt) {
+        this.gehalt = gehalt;
+    }
+
+    public void setGewicht(int gewicht) {
+        this.gewicht = gewicht;
+    }
 }
